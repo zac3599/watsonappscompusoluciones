@@ -1,0 +1,10 @@
+declared-services:
+  conversation-service:
+    label: conversation
+    plan: free
+applications:
+  - name: watsonappscompusoluciones
+    command: npm start
+    path: .
+    memory: 8GB
+    instances: 1
